@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/gavagai-test-app/static/css/main.b03afa1e.chunk.css",
-    "main.js": "/gavagai-test-app/static/js/main.523fdc6e.chunk.js",
-    "main.js.map": "/gavagai-test-app/static/js/main.523fdc6e.chunk.js.map",
+    "main.js": "/gavagai-test-app/static/js/main.dc554abe.chunk.js",
+    "main.js.map": "/gavagai-test-app/static/js/main.dc554abe.chunk.js.map",
     "runtime-main.js": "/gavagai-test-app/static/js/runtime-main.a018f388.js",
     "runtime-main.js.map": "/gavagai-test-app/static/js/runtime-main.a018f388.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/gavagai-test-app/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.d27f163e.chunk.js": "/gavagai-test-app/static/js/2.d27f163e.chunk.js",
-    "static/js/2.d27f163e.chunk.js.map": "/gavagai-test-app/static/js/2.d27f163e.chunk.js.map",
+    "static/js/2.87fcbfb4.chunk.js": "/gavagai-test-app/static/js/2.87fcbfb4.chunk.js",
+    "static/js/2.87fcbfb4.chunk.js.map": "/gavagai-test-app/static/js/2.87fcbfb4.chunk.js.map",
     "index.html": "/gavagai-test-app/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/gavagai-test-app/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.b03afa1e.chunk.css.map": "/gavagai-test-app/static/css/main.b03afa1e.chunk.css.map",
-    "static/js/2.d27f163e.chunk.js.LICENSE.txt": "/gavagai-test-app/static/js/2.d27f163e.chunk.js.LICENSE.txt"
+    "static/js/2.87fcbfb4.chunk.js.LICENSE.txt": "/gavagai-test-app/static/js/2.87fcbfb4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a018f388.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.d27f163e.chunk.js",
+    "static/js/2.87fcbfb4.chunk.js",
     "static/css/main.b03afa1e.chunk.css",
-    "static/js/main.523fdc6e.chunk.js"
+    "static/js/main.dc554abe.chunk.js"
   ]
 }
