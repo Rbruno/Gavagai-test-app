@@ -53,7 +53,7 @@ function App() {
     setisActive(true)
 
     let urlComplete = basicUrl + language +'/'+ word + apiKey;
-
+    
     await fetch(urlComplete)
       .then(response => response.json())
       .then(data => {

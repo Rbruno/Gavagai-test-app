@@ -1,10 +1,20 @@
 import React, {useState} from 'react'
-import {Form, Button, InputGroup, FormControl} from 'react-bootstrap'
+import {Form, Button, InputGroup, FormControl, Alert} from 'react-bootstrap'
 
 export default function SearchComponent(props) {
     const languages = props.languages;
-    const [word, setword] = useState([]);
-    const [language, setlanguage] = useState([]);
+    const [word, setword] = useState('');
+    const [error, seterror] = useState(false);
+    const [language, setlanguage] = useState('');
+
+    const search = () => {
+        if (word !== '' && language !== '') {
+            seterror(false)
+            props.GetWords(word, language)
+        }else{
+            seterror(true)
+        }
+    }
 
     return (
         <React.Fragment>
@@ -29,8 +39,12 @@ export default function SearchComponent(props) {
                         </Form.Control>
                     </InputGroup>
                 </Form.Group>
-                
-                <Button variant="primary" size="lg" block onClick={() => props.GetWords(word, language)}>
+                {error && (
+                    <Alert  variant='danger'>
+                        You must write a word and choose a language
+                    </Alert>
+                )}
+                <Button variant="primary" size="lg" block onClick={search}>
                     Search
                 </Button>
 
